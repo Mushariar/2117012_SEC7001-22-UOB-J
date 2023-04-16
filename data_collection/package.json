@@ -1,0 +1,42 @@
+{
+  "name": "proc-git-data",
+  "version": "1.0.0",
+  "description": "Download and process github archieve data for analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "node getfile.js",
+    "start": "node index.js",
+    "stop": "node getfilemanual.js"
+  },
+  "author": "Hasan Mushariar Ahmmed",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "fs": "^0.0.1-security",
+    "global": "^4.4.0",
+    "https": "^1.0.0",
+    "moment": "^2.24.0",
+    "path": "^0.12.7",
+    "readline": "^1.3.0",
+    "readline-async": "^0.1.0",
+    "readline-sync": "^1.4.10",
+    "shelljs": "^0.8.5",
+    "url-exists": "^1.0.3",
+    "util": "^0.12.5",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.1",
+    "nodemon": "^1.18.10"
+  }
+}
